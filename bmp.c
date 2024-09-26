@@ -28,5 +28,5 @@ void freeBMP(BMPImage *image) {
 }
 
 void drawBMP(BMPImage *image) {
-  glDrawPixels(image->width, image->height, GL_BGR, GL_UNSIGNED_BYTE, image->data);
+  glDrawPixels(image->width, image->height, GL_LUMINANCE_ALPHA, GL_UNSIGNED_BYTE, image->data);
 }
