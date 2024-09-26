@@ -15,4 +15,4 @@ BMPImage* readBMP(const char *filename);
 void freeBMP(BMPImage *image);
 void drawBMP(BMPImage *image);
 
-#endif // BMP_H
+endif // BMP_H
